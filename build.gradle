@@ -171,7 +171,8 @@ dependencies {
     compile 'wsdl4j:wsdl4j:1.6.3'
     compile 'org.jsoup:jsoup:1.11.3'
     compile 'com.auth0:java-jwt:3.8.2'
-
+	compile 'org.postgresql:postgresql:42.1.1'
+	
     // ofbiz unit-test compile libs
     testCompile 'org.mockito:mockito-core:2.23.0'
 

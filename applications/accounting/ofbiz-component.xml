@@ -81,6 +81,7 @@ under the License.
         server="default-server"
         location="webapp/accounting"
         base-permission="OFBTOOLS,ACCOUNTING"
+		app-bar-display="false"
         mount-point="/accounting"/>
 
     <webapp name="ar"
@@ -88,6 +89,7 @@ under the License.
         server="default-server"
         location="webapp/ar"
         base-permission="OFBTOOLS,ACCOUNTING"
+		app-bar-display="false"
         mount-point="/ar"/>
 
     <webapp name="ap"
@@ -95,5 +97,6 @@ under the License.
         server="default-server"
         location="webapp/ap"
         base-permission="OFBTOOLS,ACCOUNTING"
+		app-bar-display="false"
         mount-point="/ap"/>
 </ofbiz-component>

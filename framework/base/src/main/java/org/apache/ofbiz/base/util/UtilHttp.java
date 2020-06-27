@@ -1150,7 +1150,8 @@ public final class UtilHttp {
         
         /** The only x-content-type-options defined value, "nosniff", prevents Internet Explorer from MIME-sniffing a response away from the declared content-type. 
          This also applies to Google Chrome, when downloading extensions. */
-        resp.addHeader("x-content-type-options", "nosniff");
+        //resp.addHeader("x-content-type-options", "nosniff");
+        resp.addHeader("x-content-type-options", "application/javascript");
         
          /** This header enables the Cross-site scripting (XSS) filter built into most recent web browsers. 
          It's usually enabled by default anyway, so the role of this header is to re-enable the filter for this particular website if it was disabled by the user. 
@@ -1163,7 +1164,9 @@ public final class UtilHttp {
         
         resp.setHeader("Referrer-Policy", "no-referrer-when-downgrade"); // This is the default (in Firefox at least)
         
-        resp.setHeader("Content-Security-Policy-Report-Only", "default-src 'self'");
+        resp.setHeader("Content-Security-Policy-Report-Only", "default-src 'self' http://* 'unsafe-inline' 'unsafe-eval'");
+        
+        resp.setHeader("Content-Security-Policy-Report-Only", "report-uri /csp-violations-report-endpoint;");
         
         SameSiteFilter.addSameSiteCookieAttribute(resp);
         

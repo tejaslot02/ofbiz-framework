@@ -41,12 +41,14 @@ under the License.
         server="default-server"
         location="webapp/marketing"
         base-permission="OFBTOOLS,MARKETING"
+		app-bar-display="false"
         mount-point="/marketing"/>
     <webapp name="SalesForceAutomation"
         title="SFA"
         server="default-server"
         location="webapp/sfa"
         base-permission="OFBTOOLS,SFA"
+		app-bar-display="false"
         mount-point="/sfa"/>
 </ofbiz-component>
 

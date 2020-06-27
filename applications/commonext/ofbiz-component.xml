@@ -40,6 +40,7 @@ under the License.
         server="default-server"
         location="webapp/ofbizsetup"
         base-permission="OFBTOOLS,SETUP"
+		app-bar-display="false"
         mount-point="/ofbizsetup"/>
     
     <webapp name="ordermgr-js"

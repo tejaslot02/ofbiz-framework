@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-engine-xml>
+    <PaymentMethod fromDate="2020-01-01 00:00:00.0" paymentMethodId="10001" paymentMethodTypeId="CASH"/>
+	<!-- Order Adjustments -->
+	<OrderAdjustmentType orderAdjustmentTypeId="TAX_ADJUSTMENT" hasTable="N" description="Tax Adjustment"/>
+	<OrderAdjustmentType orderAdjustmentTypeId="ROUNDOFF_ADJUSTMENT" hasTable="N" description="RoundOff Adjustment"/>
+	
+	<!-- Sales Channel -->
+	<EnumerationType enumTypeId="RETAIL_SALE_CHANNEL" hasTable="N" description="Sales Channel for Charlie Fashion"/>
+    <Enumeration enumId="RETAIL_EMAIL_SALES" enumTypeId="RETAIL_SALE_CHANNEL" enumCode="EMAIL_CHANNEL" sequenceId="05" description="E-Mail Channel"/>
+    <Enumeration enumId="RETAIL_PHONE_SALES" enumTypeId="RETAIL_SALE_CHANNEL" enumCode="PHONE_CHANNEL" sequenceId="06" description="Phone Channel"/>
+    <Enumeration enumId="RETAIL_WALKIN_SALES" enumTypeId="RETAIL_SALE_CHANNEL" enumCode="WALKIN_CHANNEL" sequenceId="07" description="Walk In Channel"/>
+</entity-engine-xml>

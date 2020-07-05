@@ -30,11 +30,28 @@ under the License.
 
     <!-- entity resources: model(s), eca(s), group, and data definitions -->
     <entity-resource type="model" reader-name="main" loader="main" location="entitydef/entitymodel.xml"/>
+	<entity-resource type="model" reader-name="main" loader="main" location="entitydef/entitymodel_view.xml"/>
+	
     <!-- <entity-resource type="eca" reader-name="main" loader="main" location="entitydef/eecas.xml"/> -->
     <entity-resource type="data" reader-name="seed" loader="main" location="data/RetailTypeData.xml"/>
     <entity-resource type="data" reader-name="seed" loader="main" location="data/RetailSecurityPermissionSeedData.xml"/>
     <entity-resource type="data" reader-name="demo" loader="main" location="data/RetailSecurityGroupDemoData.xml"/>
     <entity-resource type="data" reader-name="demo" loader="main" location="data/RetailDemoData.xml"/>
+
+	<!-- RS Start -->
+	<entity-resource type="data" reader-name="seed" loader="main" location="data/SeedData4Retail/CountryCodeData.xml"/>
+	<entity-resource type="data" reader-name="seed" loader="main" location="data/SeedData4Retail/GeoData.xml"/>
+	<entity-resource type="data" reader-name="seed" loader="main" location="data/SeedData4Retail/Facility.xml"/>
+	<entity-resource type="data" reader-name="seed" loader="main" location="data/SeedData4Retail/SecurityGroupData.xml"/>
+	<entity-resource type="data" reader-name="seed" loader="main" location="data/SeedData4Retail/PartyRoleTypeData.xml"/>
+	<entity-resource type="data" reader-name="seed" loader="main" location="data/SeedData4Retail/Users.xml"/>
+	<entity-resource type="data" reader-name="seed" loader="main" location="data/SeedData4Retail/CommonData.xml"/>
+	<entity-resource type="data" reader-name="seed" loader="main" location="data/SeedData4Retail/ShippingData.xml"/>
+	<entity-resource type="data" reader-name="seed" loader="main" location="data/SeedData4Retail/ProductStoreShipmentMeth.xml"/>
+	<entity-resource type="data" reader-name="seed" loader="main" location="data/SeedData4Retail/Tax.xml"/>
+	<entity-resource type="data" reader-name="seed" loader="main" location="data/SeedData4Retail/ProductCategory.xml"/>
+	<entity-resource type="data" reader-name="seed" loader="main" location="data/SeedData4Retail/Products.xml"/>
+	<!-- RS End -->
 
     <!-- service resources: model(s), eca(s) and group definitions -->
     <service-resource type="model" loader="main" location="servicedef/services.xml"/>

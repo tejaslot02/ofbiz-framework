@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<entity-engine-xml>
+	<CountryCode countryAbbr="IND" countryCode="IN" countryName="INDIA" countryNumber="356"/>
+	<CountryCapital countryCapital="New Delhi" countryCode="IN"/>
+    <CountryTeleCode countryCode="IN" teleCode="91"/>
+</entity-engine-xml>

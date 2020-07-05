@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<entity-engine-xml>
+
+	<!-- sajetl Start -->
+		<Party partyId="sajetl" partyTypeId="PERSON" statusId="PARTY_ENABLED" createdByUserLogin="system" />
+		<PartyRole partyId="sajetl" roleTypeId="EMPLOYEE"/>
+		<PartyRole partyId="sajetl" roleTypeId="ADMIN"/>
+		<Person partyId="sajetl" firstName="Sajet" lastName="Tol" middleName="" statusId="PARTY_ENABLED" createdByUserLogin="system" />
+
+		<ContactMech partyId="sajetl" contactMechId="sajetl" contactMechPurposeId="POSTAL_ADDRESS" fromDate="2020-01-01 00:00:00.0"/>
+		<PostalAddress contactMechId="sajetl" toName="Sajet Tol" address1="ABC" address2="DEF" city="Mumbai" postalCode="400001" stateProvinceGeoId="IN-MH" countryGeoId="IND" />
+		<PartyContactMech partyId="sajetl" contactMechId="sajetl" fromDate="2020-01-01 00:00:00.0" roleTypeId="EMPLOYEE" allowSolicitation="Y" />
+		<PartyContactMechPurpose partyId="sajetl" contactMechId="sajetl" contactMechPurposeTypeId="GENERAL_LOCATION" fromDate="2020-01-01 00:00:00.0"/>	
+		<PartyContactMechPurpose partyId="sajetl" contactMechId="sajetl" contactMechPurposeTypeId="SHIPPING_LOCATION" fromDate="2020-01-01 00:00:00.0"/>
+		<PartyContactMechPurpose partyId="sajetl" contactMechId="sajetl" contactMechPurposeTypeId="BILLING_LOCATION" fromDate="2020-01-01 00:00:00.0"/>
+
+		<ContactMech partyId="sajetl" contactMechId="sajetl" contactMechTypeId="POSTAL_ADDRESS" fromDate="2020-01-01 00:00:00.0"/>
+
+		<ContactMech partyId="sajetl" contactMechId="sajetl_01" contactMechTypeId="TELECOM_NUMBER" fromDate="2020-01-01 00:00:00.0"/>
+		<TelecomNumber contactMechId="sajetl_01" contactNumber="1111111111" />
+		<PartyContactMech partyId="sajetl" contactMechId="sajetl_01" fromDate="2020-01-01 00:00:00.0" roleTypeId="EMPLOYEE" allowSolicitation="Y" />
+		<PartyContactMechPurpose partyId="sajetl" contactMechId="sajetl_01" contactMechPurposeTypeId="PHONE_MOBILE" fromDate="2020-01-01 00:00:00.0"/>			
+
+		<ContactMech partyId="sajetl" contactMechId="sajetl_02" contactMechTypeId="TELECOM_NUMBER" fromDate="2020-01-01 00:00:00.0"/>
+		<TelecomNumber contactMechId="sajetl_02" countryCode="91" areaCode="022" contactNumber="11111111" />		
+		<PartyContactMech partyId="sajetl" contactMechId="sajetl_02" fromDate="2020-01-01 00:00:00.0" roleTypeId="EMPLOYEE" allowSolicitation="Y" />
+		<PartyContactMechPurpose partyId="sajetl" contactMechId="sajetl_02" contactMechPurposeTypeId="PHONE_HOME" fromDate="2020-01-01 00:00:00.0"/>			
+
+		<ContactMech partyId="sajetl" contactMechId="sajetl_03"  contactMechTypeId="EMAIL_ADDRESS" infoString="abc@gmail.com" fromDate="2020-01-01 00:00:00.0"/>	
+		<PartyContactMech partyId="sajetl" contactMechId="sajetl_03" fromDate="2020-01-01 00:00:00.0" roleTypeId="EMPLOYEE" allowSolicitation="Y" />
+		<PartyContactMechPurpose partyId="sajetl" contactMechId="sajetl_03" contactMechPurposeTypeId="PRIMARY_EMAIL" fromDate="2020-01-01 00:00:00.0"/>
+			
+		<ProductStoreRole partyId="sajetl" roleTypeId="EMPLOYEE" productStoreId="RETAIL_MUMBAI" fromDate="2020-01-01 00:00:00.0" />
+		<UserLogin userLoginId="sajetl" currentPassword="{SHA}47b56994cbc2b6d10aa1be30f70165adb305a41a" enabled="Y" partyId="sajetl" passwordHint=" "/>
+		<UserLoginSecurityGroup userLoginId="sajetl" groupId="SUPER" fromDate="2020-01-01 12:00:00.0"/>
+	<!-- sajetl End -->	
+</entity-engine-xml>

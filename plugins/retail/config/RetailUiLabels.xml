@@ -20,19 +20,61 @@ under the License.
 
 <resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://ofbiz.apache.org/dtds/ofbiz-properties.xsd">
     <property key="RetailApplication">
-        <value xml:lang="en">Retail Application</value>
-		<value xml:lang="en_US">Retail Application</value>
+        <value xml:lang="en">Charlie Fashion</value>
+		<value xml:lang="en_US">Charlie Fashion</value>
     </property>
     <property key="RetailCompanyName">
-        <value xml:lang="en">OFBiz: Retail</value>
-		<value xml:lang="en_US">OFBiz: Retail</value>
+        <value xml:lang="en">Charlie Fashion</value>
+		<value xml:lang="en_US">Charlie Fashion</value>
     </property>
     <property key="RetailCompanySubtitle">
-        <value xml:lang="en">Part of the Apache OFBiz Family of Open Source Software</value>
-		<value xml:lang="en_US">Part of the Apache OFBiz Family of Open Source Software</value>
+        <value xml:lang="en"></value>
+		<value xml:lang="en_US"></value>
     </property>
     <property key="RetailViewPermissionError">
         <value xml:lang="en">You are not allowed to view this page.</value>
-		<value xml:lang="en_US">Part of the Apache OFBiz Family of Open Source Software</value>
+		<value xml:lang="en_US">You are not allowed to view this page.</value>
+    </property>
+	
+	
+	<property key="srNo">
+        <value xml:lang="en">Sr No.</value>
+        <value xml:lang="en_US">Sr No.</value>
+    </property>
+	<property key="itemName">
+        <value xml:lang="en">Item Name</value>
+        <value xml:lang="en_US">Item Name</value>
+    </property>
+	<property key="amount">
+        <value xml:lang="en">Unit Price</value>
+        <value xml:lang="en_US">Unit Price</value>
+    </property>
+	<property key="quantity">
+        <value xml:lang="en">Quantity</value>
+        <value xml:lang="en_US">Quantity</value>
+    </property>
+	<property key="totalAmount">
+        <value xml:lang="en">Amount</value>
+        <value xml:lang="en_US">Amount</value>
+    </property>
+	<property key="totalBilling">
+        <value xml:lang="en">Total Billing</value>
+        <value xml:lang="en_US">Total Billing</value>
+    </property>
+	<property key="totalQuantity">
+        <value xml:lang="en">Total Quantity(Nos.)</value>
+        <value xml:lang="en_US">Total Quantity (Nos.)</value>
+    </property>
+	<property key="cartAmount">
+        <value xml:lang="en">Cart Amount (Rs.)</value>
+        <value xml:lang="en_US">Cart Amount (Rs.)</value>
+    </property>
+	<property key="discount">
+        <value xml:lang="en">Discount (%)</value>
+        <value xml:lang="en_US">Discount (%)</value>
+    </property>
+	<property key="totaCartAmnt">
+        <value xml:lang="en">Total Cart Amount(Rs.)</value>
+        <value xml:lang="en_US">Total Cart Amount (Rs.)</value>
     </property>
 </resource>

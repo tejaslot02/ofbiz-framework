@@ -33,6 +33,14 @@ under the License.
     </preprocessor>
     -->
     <!-- Events to run on every request after all other processing (chains exempt) -->
+    <request-map uri="getRetailCategoryMembers">
+        <security https="true" auth="true"/>
+        <event type="service" path="" invoke="getRetailCategoryMembers"/>
+        <response name="success" type="request" value="json"/>
+        <response name="error" type="request" value="json"/>
+    </request-map>
+	
+	
     <!--
     <postprocessor>
         <event name="test" type="java" path="org.apache.ofbiz.webapp.event.TestEvent" invoke="test"/>

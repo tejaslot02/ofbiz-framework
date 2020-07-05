@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<entity-engine-xml>
+	<!-- Store grouping added for controlling prices across the different stores -->
+	<ProductStoreGroupType productStoreGroupTypeId="STORES" description="Store Groupings for Price purpose"/>
+
+	<ProductStoreGroup productStoreGroupId="ALL_STORES" productStoreGroupTypeId="STORES" productStoreGroupName="All Stores" description="Pricing based on Store groups"/>  	
+	<ProductStoreGroupMember productStoreGroupId="ALL_STORES" productStoreId="RETAIL_MUMBAI" fromDate="2020-01-01 00:00:00.0"/>  		
+
+	<!-- It is necessary to add a shipment method to the product stores -->
+	<ProductStoreShipmentMeth productStoreShipMethId="CF_ORDER_LOCAL_DEL" productStoreId="RETAIL_MUMBAI" shipmentMethodTypeId="LOCAL_DELIVERY" partyId="Company" roleTypeId="CARRIER"/>
+</entity-engine-xml>

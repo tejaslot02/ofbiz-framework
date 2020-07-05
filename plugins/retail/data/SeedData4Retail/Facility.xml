@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-engine-xml>
+
+	<!-- Andheri Facility -->
+	<Party partyId="Company" partyTypeId="PARTY_GROUP" preferredCurrencyUomId="INR"/>
+	<PartyGroup partyId="Company" groupName="RETAIL SHOP" groupNameLocal="RETAIL SHOP" annualRevenue="1" numEmployees="5" preferredCurrencyUomId="INR" logoImageUrl="/images/ofbiz_logo.gif" />
+	<PartyRole partyId="Company" roleTypeId="OWNER"/>
+	<PartyRole partyId="Company" roleTypeId="SUPPLIER"/>
+	<PartyRole partyId="Company" roleTypeId="INTERNAL_ORGANIZATIO"/>
+	 
+	<Facility facilityId="RETAIL_MUMBAI" ownerPartyId="Company" facilityTypeId="PLANT" facilityName="RETAIL SHOP" description="RETAIL SHOP"/>
+    <ContactMech contactMechId="FACT_POST_ADDR" contactMechTypeId="POSTAL_ADDRESS"/>
+    <ContactMech contactMechId="FACT_TEL_NBR" contactMechTypeId="TELECOM_NUMBER"/>
+	<ContactMech partyId="Company" contactMechId="FACT_PRIM_EMAIL" contactMechTypeId="EMAIL_ADDRESS" infoString="xmen@gmail.com" fromDate="2020-01-01 00:00:00.0"/>	
+	<PartyContactMech partyId="Company" contactMechId="FACT_PRIM_EMAIL" fromDate="2020-01-01 00:00:00.0" roleTypeId="OWNER" allowSolicitation="Y" />
+    <PostalAddress contactMechId="FACT_POST_ADDR" toName="RETAIL SHOP" attnName="Mr XMen" address1="ABC" address2="DEF" city="Mumbai" postalCode="400001" countryGeoId="IND" stateProvinceGeoId="IN-MH"/>
+    <TelecomNumber contactMechId="FACT_TEL_NBR" areaCode="" contactNumber="1111111111"/>
+    <FacilityContactMech facilityId="RETAIL_MUMBAI" contactMechId="FACT_POST_ADDR" fromDate="2020-01-01 00:00:00.0"/>
+    <FacilityContactMech facilityId="RETAIL_MUMBAI" contactMechId="FACT_TEL_NBR" fromDate="2020-01-01 00:00:00.0"/>
+	<FacilityParty facilityId="RETAIL_MUMBAI" partyId="Company" roleTypeId="OWNER" fromDate="2020-01-01 00:00:00.0"/>
+	<PartyContactMech partyId="Company" contactMechId="FACT_POST_ADDR" fromDate="2020-01-01 00:00:00.0" allowSolicitation="Y"/>
+	
+	<PartyContactMechPurpose partyId="Company" contactMechId="FACT_POST_ADDR" contactMechPurposeTypeId="BILLING_LOCATION" fromDate="2020-01-01 00:00:00.0"/>
+    <PartyContactMechPurpose partyId="Company" contactMechId="FACT_POST_ADDR" contactMechPurposeTypeId="GENERAL_LOCATION" fromDate="2020-01-01 00:00:00.0"/>
+    <PartyContactMechPurpose partyId="Company" contactMechId="FACT_POST_ADDR" contactMechPurposeTypeId="PAYMENT_LOCATION" fromDate="2020-01-01 00:00:00.0"/>
+	<PartyContactMechPurpose partyId="Company" contactMechId="FACT_POST_ADDR" contactMechPurposeTypeId="SHIP_ORIG_LOCATION" fromDate="2020-01-01 00:00:00.0"/>
+	<PartyContactMechPurpose partyId="Company" contactMechId="FACT_POST_ADDR" contactMechPurposeTypeId="SHIPPING_LOCATION" fromDate="2020-01-01 00:00:00.0"/>
+	<PartyContactMechPurpose partyId="Company" contactMechId="FACT_PRIM_EMAIL" contactMechPurposeTypeId="PRIMARY_EMAIL" fromDate="2020-01-01 00:00:00.0"/>
+	
+	<FacilityContactMechPurpose facilityId="RETAIL_MUMBAI" contactMechId="FACT_POST_ADDR" contactMechPurposeTypeId="PUR_RET_LOCATION" fromDate="2020-01-01 00:00:00.0"/>
+    <FacilityContactMechPurpose facilityId="RETAIL_MUMBAI" contactMechId="FACT_POST_ADDR" contactMechPurposeTypeId="GENERAL_LOCATION" fromDate="2020-01-01 00:00:00.0"/>
+    <FacilityContactMechPurpose facilityId="RETAIL_MUMBAI" contactMechId="FACT_POST_ADDR" contactMechPurposeTypeId="PAYMENT_LOCATION" fromDate="2020-01-01 00:00:00.0"/>
+    <FacilityContactMechPurpose facilityId="RETAIL_MUMBAI" contactMechId="FACT_POST_ADDR" contactMechPurposeTypeId="BILLING_LOCATION" fromDate="2020-01-01 00:00:00.0"/>
+    <FacilityContactMechPurpose facilityId="RETAIL_MUMBAI" contactMechId="FACT_POST_ADDR" contactMechPurposeTypeId="SHIP_ORIG_LOCATION" fromDate="2020-01-01 00:00:00.0"/>
+    <FacilityContactMechPurpose facilityId="RETAIL_MUMBAI" contactMechId="FACT_POST_ADDR" contactMechPurposeTypeId="SHIPPING_LOCATION" fromDate="2020-01-01 00:00:00.0"/>
+    <FacilityContactMechPurpose facilityId="RETAIL_MUMBAI" contactMechId="FACT_TEL_NBR" contactMechPurposeTypeId="PHONE_SHIPPING" fromDate="2020-01-01 00:00:00.0"/>
+    <FacilityContactMechPurpose facilityId="RETAIL_MUMBAI" contactMechId="FACT_TEL_NBR" contactMechPurposeTypeId="PHONE_SHIP_ORIG" fromDate="2020-01-01 00:00:00.0"/>
+    <FacilityContactMechPurpose facilityId="RETAIL_MUMBAI" contactMechId="FACT_TEL_NBR" contactMechPurposeTypeId="PHONE_PAYMENT" fromDate="2020-01-01 00:00:00.0"/>
+    <FacilityContactMechPurpose facilityId="RETAIL_MUMBAI" contactMechId="FACT_TEL_NBR" contactMechPurposeTypeId="PHONE_BILLING" fromDate="2020-01-01 00:00:00.0"/>
+    <FacilityContactMechPurpose facilityId="RETAIL_MUMBAI" contactMechId="FACT_TEL_NBR" contactMechPurposeTypeId="PHONE_SHIP_ORIG" fromDate="2020-01-01 00:00:00.0"/>
+    <FacilityContactMechPurpose facilityId="RETAIL_MUMBAI" contactMechId="FACT_TEL_NBR" contactMechPurposeTypeId="PHONE_SHIPPING" fromDate="2020-01-01 00:00:00.0"/>
+	
+	<ProductStore productStoreId="RETAIL_MUMBAI" storeName="RETAIL SHOP" TTPartyName="RETAIL SHOP" title="RETAIL SHOP"
+        subtitle="CF" payToPartyId="Company" daysToCancelNonPay="30" prorateShipping="Y" prorateTaxes="Y"
+        inventoryFacilityId="RETAIL_MUMBAI" oneInventoryFacility="Y" checkInventory="N" reserveInventory="Y"
+        reserveOrderEnumId="INVRO_FIFO_REC" requireInventory="N" isImmediatelyFulfilled="Y"
+        defaultLocaleString="en_US" defaultCurrencyUomId="INR" allowPassword="Y" explodeOrderItems="N" retryFailedAuths="N" manualAuthIsCapture="Y"
+        headerApprovedStatus="ORDER_APPROVED" itemApprovedStatus="ITEM_APPROVED" digitalItemApprovedStatus="ITEM_APPROVED" headerDeclinedStatus="ORDER_REJECTED"
+        itemDeclinedStatus="ITEM_REJECTED" headerCancelStatus="ORDER_CANCELLED" itemCancelStatus="ITEM_CANCELLED" orderNumberPrefix="RS"
+        authDeclinedMessage="There has been a problem with your method of payment. Please try a different method or call customer service."
+        authFraudMessage="Your order has been rejected and your account has been disabled due to fraud."
+        authErrorMessage="Problem connecting to payment processor."
+        visualThemeId="EC_DEFAULT" autoApproveInvoice="Y" shipIfCaptureFails="Y" autoApproveOrder="Y"/>
+    <Facility facilityId="RETAIL_MUMBAI" productStoreId="RETAIL_MUMBAI" defaultInventoryItemTypeId="NON_SERIAL_INV_ITEM"/>
+	<FacilityParty facilityId="RETAIL_MUMBAI" partyId="Company" roleTypeId="OWNER" fromDate="2020-01-01 00:00:00.0"/>
+</entity-engine-xml>

@@ -29,5 +29,12 @@ under the License.
             Dummy service to prevent empty files and syntax error - Remove when the 1st real service will be added here 
         </description>
     </service> 
+	
+	<service name="getRetailCategoryMembers" engine="java" location="org.apache.ofbiz.services.RetailServices" invoke="getRetailCategoryMembers" auth="false">
+        <description>Get Retail Category Members</description>
+        <attribute name="productCategoryTypeId" type="String" mode="IN" optional="true"/>
+		<attribute name="status" type="String" mode="OUT" optional="true"/>
+        <attribute name="productCategoriesWithProducts" type="java.util.Map&lt;String,Object&gt;" mode="OUT" optional="true"/>
+    </service>
     
 </services>

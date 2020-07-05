@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<entity-engine-xml>
+	<!-- Custom Roles -->
+	<RoleType description="Director of Retail Shop" hasTable="N" parentTypeId="PERSON_ROLE" roleTypeId="DIRECTOR"/>
+	<RoleType description="Sales Coordinator" hasTable="N" parentTypeId="PERSON_ROLE" roleTypeId="SALES_COORDINATOR"/>
+	<PartyRelationshipType partyRelationshipTypeId="DIRECTOR" hasTable="N" partyRelationshipName="Director Retail Shop"/>
+	<!-- Custom End --> 
+</entity-engine-xml>

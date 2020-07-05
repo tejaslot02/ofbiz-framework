@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Licensed to the Apache Software Foundation (ASF) under one
+or more contributor license agreements.  See the NOTICE file
+distributed with this work for additional information
+regarding copyright ownership.  The ASF licenses this file
+to you under the Apache License, Version 2.0 (the
+"License"); you may not use this file except in compliance
+with the License.  You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<entitymodel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://ofbiz.apache.org/dtds/entitymodel.xsd">
+    
+    <view-entity entity-name="ProductCategoryAndProductDetails" package-name="org.apache.ofbiz.services">
+        <member-entity entity-alias="PCM" entity-name="ProductCategoryAndMember"/>
+        <member-entity entity-alias="P" entity-name="Product"/>
+		<member-entity entity-alias="PP" entity-name="ProductPrice"/>
+        <alias entity-alias="PCM" name="productCategoryId"/>
+		<alias entity-alias="PCM" name="productCategoryTypeId"/>
+        <alias entity-alias="PCM" name="productId"/>
+        <alias entity-alias="PCM" name="throughDate"/>
+        <alias entity-alias="P" name="internalName"/>
+        <alias entity-alias="P" name="productName"/>
+        <alias entity-alias="P" name="quantityUomId"/>
+        <alias entity-alias="PP" name="productPriceTypeId"/>
+        <alias entity-alias="PP" name="throughDate" field="productPriceThroughDate"/>
+        <alias entity-alias="PP" name="price"/>
+        <view-link entity-alias="PCM" rel-entity-alias="P">
+            <key-map field-name="productId" rel-field-name="productId"/>
+			<entity-condition>
+                <condition-expr entity-alias="PCM" field-name="productCategoryTypeId" value="CATALOG_CATEGORY"/>
+            </entity-condition>
+        </view-link>
+        <view-link entity-alias="P" rel-entity-alias="PP" rel-optional="true">
+            <key-map field-name="productId" rel-field-name="productId"/>
+            <entity-condition>
+                <condition-expr entity-alias="PP" field-name="productPriceTypeId" value="DEFAULT_PRICE"/>
+            </entity-condition>
+        </view-link>
+    </view-entity>
+</entitymodel>

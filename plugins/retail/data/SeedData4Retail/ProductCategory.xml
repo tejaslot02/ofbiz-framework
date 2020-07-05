@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<entity-engine-xml>
+	<ProductStoreGroupType productStoreGroupTypeId="STORES" description="Store Groupings for Price purpose"/>
+
+	<ProductStoreGroup productStoreGroupId="ALL_STORES" productStoreGroupTypeId="STORES" productStoreGroupName="All Stores" description="Pricing based on Store groups"/>  	
+	<ProductStoreGroupMember productStoreGroupId="ALL_STORES" productStoreId="RETAIL_MUMBAI" fromDate="2020-01-01 00:00:00.0"/>  		
+
+	<ProdCatalog prodCatalogId="MasterCatalog" catalogName="Retail Shop Catalog" useQuickAdd="Y"/>
+    <ProductStoreCatalog productStoreId="RETAIL_MUMBAI" prodCatalogId="MasterCatalog" fromDate="2020-01-01 00:00:00.0" sequenceNum="1"/>
+
+	<ProductCategory categoryName="SHIRTS" longDescription="SHIRTS" productCategoryId="SHIRTS" productCategoryTypeId="CATALOG_CATEGORY"/>
+    <ProdCatalogCategory prodCatalogId="MasterCatalog" productCategoryId="SHIRTS" fromDate="2020-01-01 00:00:00.0" sequenceNum="1" prodCatalogCategoryTypeId="PCCT_ADMIN_ALLW"/>
+		
+	<ProductCategory categoryName="TROWSERS" longDescription="TROWSERS" productCategoryId="TROWSERS" productCategoryTypeId="CATALOG_CATEGORY"/>
+    <ProdCatalogCategory prodCatalogId="MasterCatalog" productCategoryId="TROWSERS" fromDate="2020-01-01 00:00:00.0" sequenceNum="1" prodCatalogCategoryTypeId="PCCT_ADMIN_ALLW"/>		
+	
+	<ProductCategory categoryName="JEANS" longDescription="JEANS" productCategoryId="JEANS" productCategoryTypeId="CATALOG_CATEGORY"/>
+    <ProdCatalogCategory prodCatalogId="MasterCatalog" productCategoryId="JEANS" fromDate="2020-01-01 00:00:00.0" sequenceNum="1" prodCatalogCategoryTypeId="PCCT_ADMIN_ALLW"/>		
+	
+	<ProductCategory categoryName="HANDKERCHIEF" longDescription="HANDKERCHIEF" productCategoryId="HANDKERCHIEF" productCategoryTypeId="CATALOG_CATEGORY"/>
+    <ProdCatalogCategory prodCatalogId="MasterCatalog" productCategoryId="HANDKERCHIEF" fromDate="2020-01-01 00:00:00.0" sequenceNum="1" prodCatalogCategoryTypeId="PCCT_ADMIN_ALLW"/>		
+	
+	<ProductCategory categoryName="CAPS" longDescription="CAPS" productCategoryId="CAPS" productCategoryTypeId="CATALOG_CATEGORY"/>
+    <ProdCatalogCategory prodCatalogId="MasterCatalog" productCategoryId="CAPS" fromDate="2020-01-01 00:00:00.0" sequenceNum="1" prodCatalogCategoryTypeId="PCCT_ADMIN_ALLW"/>		
+</entity-engine-xml>

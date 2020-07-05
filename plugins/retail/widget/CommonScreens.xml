@@ -31,8 +31,8 @@ under the License.
                 <set field="layoutSettings.companySubtitle" from-field="uiLabelMap.RetailCompanySubtitle" global="true"/>
 
                 <set field="activeApp" value="retailweb" global="true"/>
-                <set field="applicationMenuName" value="MainAppBar" global="true"/>
-                <set field="applicationMenuLocation" value="component://retail/widget/RetailMenus.xml" global="true"/>
+<!--                 <set field="applicationMenuName" value="MainAppBar" global="true"/>
+                <set field="applicationMenuLocation" value="component://retail/widget/RetailMenus.xml" global="true"/> -->
                 <set field="applicationTitle" from-field="uiLabelMap.RetailApplication" global="true"/>
             </actions>
             <widgets>
@@ -44,6 +44,11 @@ under the License.
     <screen name="RetailCommonDecorator">
         <section>
             <actions>
+            	<entity-condition entity-name="Geo" list="states">
+					<condition-expr field-name="wellKnownText" operator="equals" value="IND"/>
+					<order-by field-name="geoName"/>
+				</entity-condition>
+            	
 				<!-- <set field="layoutSettings.javaScripts[]" value="/commonUtilweb/lib/js/jquery.min.js" global="true"/> -->
 				<set field="layoutSettings.javaScripts[]" value="/commonUtilweb/lib/js/bootstrap.min.js" global="true"/>
 				<set field="layoutSettings.styleSheets[+0]" value="/commonUtilweb/lib/css/bootstrap.min.css" global="true"/>

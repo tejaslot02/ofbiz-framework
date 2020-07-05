@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<entity-engine-xml>
+	<Party partyId='1000' partyTypeId="PARTY_GROUP" />
+	<!-- Tax Authority -->
+	<TaxAuthority taxAuthGeoId ="IND" taxAuthPartyId="1000" requireTaxIdForExemption = "Y" includeTaxInPrice ="N"/>
+	
+	<!-- Tax Type -->
+	<TaxAuthorityRateType taxAuthorityRateTypeId="CGST_TAX" description="CGST_TAX"/>
+    <TaxAuthorityRateType taxAuthorityRateTypeId="IGST_TAX" description="IGST_TAX"/>
+    <TaxAuthorityRateType taxAuthorityRateTypeId="SGST_TAX" description="SGST_TAX"/>
+    <TaxAuthorityRateType taxAuthorityRateTypeId="UTGST_TAX" description="UTGST_TAX"/>
+	
+	<ProductCategory productCategoryId="61" productCategoryTypeId="TAX_CATEGORY"  categoryName="61" longDescription="61"/>
+	<ProductCategory productCategoryId="62" productCategoryTypeId="TAX_CATEGORY"  categoryName="62" longDescription="62"/>
+	<ProductCategory productCategoryId="63" productCategoryTypeId="TAX_CATEGORY"  categoryName="63" longDescription="63"/>
+	
+	<!-- Tax Category -->
+	<ProductCategory productCategoryId="61_SGST_5"  productCategoryTypeId="TAX_CATEGORY"  primaryParentCategoryId="61"  categoryName="61_SGST_5"  longDescription="61_SGST_5"/>
+	<ProductCategory productCategoryId="61_CGST_5"  productCategoryTypeId="TAX_CATEGORY"  primaryParentCategoryId="61"  categoryName="61_CGST_5"  longDescription="61_CGST_5"/>
+	<ProductCategory productCategoryId="61_IGST_5"  productCategoryTypeId="TAX_CATEGORY"  primaryParentCategoryId="61"  categoryName="61_IGST_5"  longDescription="61_IGST_5"/>
+	<ProductCategory productCategoryId="61_UTGST_5" productCategoryTypeId="TAX_CATEGORY"  primaryParentCategoryId="61"  categoryName="61_UTGST_5" longDescription="61_UTGST_5"/>	
+	
+	<ProductCategory productCategoryId="62_SGST_5"  productCategoryTypeId="TAX_CATEGORY"  primaryParentCategoryId="62"  categoryName="62_SGST_5"  longDescription="62_SGST_5"/>
+	<ProductCategory productCategoryId="62_CGST_5"  productCategoryTypeId="TAX_CATEGORY"  primaryParentCategoryId="62"  categoryName="62_CGST_5"  longDescription="62_CGST_5"/>
+	<ProductCategory productCategoryId="62_IGST_5"  productCategoryTypeId="TAX_CATEGORY"  primaryParentCategoryId="62"  categoryName="62_IGST_5"  longDescription="62_IGST_5"/>
+	<ProductCategory productCategoryId="62_UTGST_5" productCategoryTypeId="TAX_CATEGORY"  primaryParentCategoryId="62"  categoryName="62_UTGST_5" longDescription="62_UTGST_5"/>
+
+	<ProductCategory productCategoryId="63_SGST_5"  productCategoryTypeId="TAX_CATEGORY"  primaryParentCategoryId="63"  categoryName="63_SGST_5"  longDescription="63_SGST_5"/>
+	<ProductCategory productCategoryId="63_CGST_5"  productCategoryTypeId="TAX_CATEGORY"  primaryParentCategoryId="63"  categoryName="63_CGST_5"  longDescription="63_CGST_5"/>
+	<ProductCategory productCategoryId="63_IGST_5"  productCategoryTypeId="TAX_CATEGORY"  primaryParentCategoryId="63"  categoryName="63_IGST_5"  longDescription="63_IGST_5"/>
+	<ProductCategory productCategoryId="63_UTGST_5" productCategoryTypeId="TAX_CATEGORY"  primaryParentCategoryId="63"  categoryName="63_UTGST_5" longDescription="63_UTGST_5"/>
+
+	<ProductCategory productCategoryId="61_SGST_6"  productCategoryTypeId="TAX_CATEGORY"  primaryParentCategoryId="61"  categoryName="61_SGST_6"  longDescription="61_SGST_6"/>
+	<ProductCategory productCategoryId="61_CGST_6"  productCategoryTypeId="TAX_CATEGORY"  primaryParentCategoryId="61"  categoryName="61_CGST_6"  longDescription="61_CGST_6"/>
+	<ProductCategory productCategoryId="61_IGST_6"  productCategoryTypeId="TAX_CATEGORY"  primaryParentCategoryId="61"  categoryName="61_IGST_6"  longDescription="61_IGST_6"/>
+	<ProductCategory productCategoryId="61_UTGST_6" productCategoryTypeId="TAX_CATEGORY"  primaryParentCategoryId="61"  categoryName="61_UTGST_6" longDescription="61_UTGST_6"/>	
+	
+	<ProductCategory productCategoryId="62_SGST_6"  productCategoryTypeId="TAX_CATEGORY"  primaryParentCategoryId="62"  categoryName="62_SGST_6"  longDescription="62_SGST_6"/>
+	<ProductCategory productCategoryId="62_CGST_6"  productCategoryTypeId="TAX_CATEGORY"  primaryParentCategoryId="62"  categoryName="62_CGST_6"  longDescription="62_CGST_6"/>
+	<ProductCategory productCategoryId="62_IGST_6"  productCategoryTypeId="TAX_CATEGORY"  primaryParentCategoryId="62"  categoryName="62_IGST_6"  longDescription="62_IGST_6"/>
+	<ProductCategory productCategoryId="62_UTGST_6" productCategoryTypeId="TAX_CATEGORY"  primaryParentCategoryId="62"  categoryName="62_UTGST_6" longDescription="62_UTGST_6"/>
+
+	<ProductCategory productCategoryId="63_SGST_6"  productCategoryTypeId="TAX_CATEGORY"  primaryParentCategoryId="63"  categoryName="63_SGST_6"  longDescription="63_SGST_6"/>
+	<ProductCategory productCategoryId="63_CGST_6"  productCategoryTypeId="TAX_CATEGORY"  primaryParentCategoryId="63"  categoryName="63_CGST_6"  longDescription="63_CGST_6"/>
+	<ProductCategory productCategoryId="63_IGST_6"  productCategoryTypeId="TAX_CATEGORY"  primaryParentCategoryId="63"  categoryName="63_IGST_6"  longDescription="63_IGST_6"/>
+	<ProductCategory productCategoryId="63_UTGST_6" productCategoryTypeId="TAX_CATEGORY"  primaryParentCategoryId="63"  categoryName="63_UTGST_6" longDescription="63_UTGST_6"/>	
+
+	
+	<!-- Tax Percentage -->	
+	<TaxAuthorityRateProduct taxAuthGeoId="IND" taxAuthPartyId="1000" taxAuthorityRateTypeId="SGST_TAX"  productStoreId="RETAIL_MUMBAI"  productCategoryId="61_SGST_5"  taxPercentage="2.5"  taxPromotions="Y" fromDate="2018-01-01 00:00:00.0" description="SGST_TAX"/>
+	<TaxAuthorityRateProduct taxAuthGeoId="IND" taxAuthPartyId="1000" taxAuthorityRateTypeId="CGST_TAX"  productStoreId="RETAIL_MUMBAI"  productCategoryId="61_CGST_5"  taxPercentage="2.5"  taxPromotions="Y" fromDate="2018-01-01 00:00:00.0" description="CGST_TAX"/>
+	<TaxAuthorityRateProduct taxAuthGeoId="IND" taxAuthPartyId="1000" taxAuthorityRateTypeId="IGST_TAX"  productStoreId="RETAIL_MUMBAI"  productCategoryId="61_IGST_5"  taxPercentage="5.0"  taxPromotions="Y" fromDate="2018-01-01 00:00:00.0" description="IGST_TAX"/>
+	<TaxAuthorityRateProduct taxAuthGeoId="IND" taxAuthPartyId="1000" taxAuthorityRateTypeId="UTGST_TAX" productStoreId="RETAIL_MUMBAI"  productCategoryId="61_UTGST_5" taxPercentage="2.5"  taxPromotions="Y" fromDate="2018-01-01 00:00:00.0" description="UTGST_TAX"/>
+	
+	<TaxAuthorityRateProduct taxAuthGeoId="IND" taxAuthPartyId="1000" taxAuthorityRateTypeId="SGST_TAX"  productStoreId="RETAIL_MUMBAI"  productCategoryId="62_SGST_5"  taxPercentage="2.5"  taxPromotions="Y" fromDate="2018-01-01 00:00:00.0" description="SGST_TAX"/>
+	<TaxAuthorityRateProduct taxAuthGeoId="IND" taxAuthPartyId="1000" taxAuthorityRateTypeId="CGST_TAX"  productStoreId="RETAIL_MUMBAI"  productCategoryId="62_CGST_5"  taxPercentage="2.5"  taxPromotions="Y" fromDate="2018-01-01 00:00:00.0" description="CGST_TAX"/>
+	<TaxAuthorityRateProduct taxAuthGeoId="IND" taxAuthPartyId="1000" taxAuthorityRateTypeId="IGST_TAX"  productStoreId="RETAIL_MUMBAI"  productCategoryId="62_IGST_5"  taxPercentage="5.0"  taxPromotions="Y" fromDate="2018-01-01 00:00:00.0" description="IGST_TAX"/>
+	<TaxAuthorityRateProduct taxAuthGeoId="IND" taxAuthPartyId="1000" taxAuthorityRateTypeId="UTGST_TAX" productStoreId="RETAIL_MUMBAI"  productCategoryId="62_UTGST_5" taxPercentage="2.5"  taxPromotions="Y" fromDate="2018-01-01 00:00:00.0" description="UTGST_TAX"/>
+	
+	<TaxAuthorityRateProduct taxAuthGeoId="IND" taxAuthPartyId="1000" taxAuthorityRateTypeId="SGST_TAX"  productStoreId="RETAIL_MUMBAI"  productCategoryId="63_SGST_5"  taxPercentage="2.5"  taxPromotions="Y" fromDate="2018-01-01 00:00:00.0" description="SGST_TAX"/>
+	<TaxAuthorityRateProduct taxAuthGeoId="IND" taxAuthPartyId="1000" taxAuthorityRateTypeId="CGST_TAX"  productStoreId="RETAIL_MUMBAI"  productCategoryId="63_CGST_5"  taxPercentage="2.5"  taxPromotions="Y" fromDate="2018-01-01 00:00:00.0" description="CGST_TAX"/>
+	<TaxAuthorityRateProduct taxAuthGeoId="IND" taxAuthPartyId="1000" taxAuthorityRateTypeId="IGST_TAX"  productStoreId="RETAIL_MUMBAI"  productCategoryId="63_IGST_5"  taxPercentage="5.0"  taxPromotions="Y" fromDate="2018-01-01 00:00:00.0" description="IGST_TAX"/>
+	<TaxAuthorityRateProduct taxAuthGeoId="IND" taxAuthPartyId="1000" taxAuthorityRateTypeId="UTGST_TAX" productStoreId="RETAIL_MUMBAI"  productCategoryId="63_UTGST_5" taxPercentage="2.5"  taxPromotions="Y" fromDate="2018-01-01 00:00:00.0" description="UTGST_TAX"/>
+	
+	<TaxAuthorityRateProduct taxAuthGeoId="IND" taxAuthPartyId="1000" taxAuthorityRateTypeId="SGST_TAX"  productStoreId="RETAIL_MUMBAI"  productCategoryId="61_SGST_6"  taxPercentage="3.0"  taxPromotions="Y" fromDate="2018-01-01 00:00:00.0" description="SGST_TAX"/>
+	<TaxAuthorityRateProduct taxAuthGeoId="IND" taxAuthPartyId="1000" taxAuthorityRateTypeId="CGST_TAX"  productStoreId="RETAIL_MUMBAI"  productCategoryId="61_CGST_6"  taxPercentage="3.0"  taxPromotions="Y" fromDate="2018-01-01 00:00:00.0" description="CGST_TAX"/>
+	<TaxAuthorityRateProduct taxAuthGeoId="IND" taxAuthPartyId="1000" taxAuthorityRateTypeId="IGST_TAX"  productStoreId="RETAIL_MUMBAI"  productCategoryId="61_IGST_6"  taxPercentage="6.0"  taxPromotions="Y" fromDate="2018-01-01 00:00:00.0" description="IGST_TAX"/>
+	<TaxAuthorityRateProduct taxAuthGeoId="IND" taxAuthPartyId="1000" taxAuthorityRateTypeId="UTGST_TAX" productStoreId="RETAIL_MUMBAI"  productCategoryId="61_UTGST_6" taxPercentage="3.0"  taxPromotions="Y" fromDate="2018-01-01 00:00:00.0" description="UTGST_TAX"/>
+																																														
+	<TaxAuthorityRateProduct taxAuthGeoId="IND" taxAuthPartyId="1000" taxAuthorityRateTypeId="SGST_TAX"  productStoreId="RETAIL_MUMBAI"  productCategoryId="62_SGST_6"  taxPercentage="3.0"  taxPromotions="Y" fromDate="2018-01-01 00:00:00.0" description="SGST_TAX"/>
+	<TaxAuthorityRateProduct taxAuthGeoId="IND" taxAuthPartyId="1000" taxAuthorityRateTypeId="CGST_TAX"  productStoreId="RETAIL_MUMBAI"  productCategoryId="62_CGST_6"  taxPercentage="3.0"  taxPromotions="Y" fromDate="2018-01-01 00:00:00.0" description="CGST_TAX"/>
+	<TaxAuthorityRateProduct taxAuthGeoId="IND" taxAuthPartyId="1000" taxAuthorityRateTypeId="IGST_TAX"  productStoreId="RETAIL_MUMBAI"  productCategoryId="62_IGST_6"  taxPercentage="6.0"  taxPromotions="Y" fromDate="2018-01-01 00:00:00.0" description="IGST_TAX"/>
+	<TaxAuthorityRateProduct taxAuthGeoId="IND" taxAuthPartyId="1000" taxAuthorityRateTypeId="UTGST_TAX" productStoreId="RETAIL_MUMBAI"  productCategoryId="62_UTGST_6" taxPercentage="3.0"  taxPromotions="Y" fromDate="2018-01-01 00:00:00.0" description="UTGST_TAX"/>
+																																														
+	<TaxAuthorityRateProduct taxAuthGeoId="IND" taxAuthPartyId="1000" taxAuthorityRateTypeId="SGST_TAX"  productStoreId="RETAIL_MUMBAI"  productCategoryId="63_SGST_6"  taxPercentage="3.0"  taxPromotions="Y" fromDate="2018-01-01 00:00:00.0" description="SGST_TAX"/>
+	<TaxAuthorityRateProduct taxAuthGeoId="IND" taxAuthPartyId="1000" taxAuthorityRateTypeId="CGST_TAX"  productStoreId="RETAIL_MUMBAI"  productCategoryId="63_CGST_6"  taxPercentage="3.0"  taxPromotions="Y" fromDate="2018-01-01 00:00:00.0" description="CGST_TAX"/>
+	<TaxAuthorityRateProduct taxAuthGeoId="IND" taxAuthPartyId="1000" taxAuthorityRateTypeId="IGST_TAX"  productStoreId="RETAIL_MUMBAI"  productCategoryId="63_IGST_6"  taxPercentage="6.0"  taxPromotions="Y" fromDate="2018-01-01 00:00:00.0" description="IGST_TAX"/>
+	<TaxAuthorityRateProduct taxAuthGeoId="IND" taxAuthPartyId="1000" taxAuthorityRateTypeId="UTGST_TAX" productStoreId="RETAIL_MUMBAI"  productCategoryId="63_UTGST_6" taxPercentage="3.0"  taxPromotions="Y" fromDate="2018-01-01 00:00:00.0" description="UTGST_TAX"/>
+</entity-engine-xml>

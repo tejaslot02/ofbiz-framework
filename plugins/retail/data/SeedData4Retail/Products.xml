@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<entity-engine-xml> 
+		<!-- Start product 1001 --> 
+			<Product productId="1001" productTypeId="FINISHED_GOOD" manufacturerPartyId="Company" productName="Levis Shirt" internalName="Levis Shirt" description="Levis Shirt" longDescription="Levis Shirt" autoCreateKeywords="Y" createdByUserLogin="system" quantityUomId="OTH_ea" requirementMethodEnumId="PRODRQM_NONE"/> 
+			<ProductCategoryMember productCategoryId="SHIRTS" productId="1001" fromDate="2020-01-01 00:00:00"/> 
+			<ProductCategoryMember productCategoryId="61_SGST_5" productId="1001" fromDate="2020-01-01 00:00:00"/> 
+			<ProductCategoryMember productCategoryId="61_CGST_5" productId="1001" fromDate="2020-01-01 00:00:00"/> 
+			<ProductCategoryMember productCategoryId="61_IGST_5" productId="1001" fromDate="2020-01-01 00:00:00"/> 
+			<ProductCategoryMember productCategoryId="61_UTGST_5" productId="1001" fromDate="2020-01-01 00:00:00"/> 
+			<ProductPrice productId="1001" productPricePurposeId="PURCHASE" productPriceTypeId="LIST_PRICE" currencyUomId="INR" productStoreGroupId="ALL_STORES" fromDate="2020-01-01 00:00:00" price="100" createdByUserLogin="system"/> 
+			<ProductPrice productId="1001" productPricePurposeId="PURCHASE" productPriceTypeId="DEFAULT_PRICE" currencyUomId="INR" productStoreGroupId="ALL_STORES" fromDate="2020-01-01 00:00:00" price="100" createdByUserLogin="system"/> 
+			<ProductPrice productId="1001" productPricePurposeId="PURCHASE" productPriceTypeId="MAXIMUM_PRICE" currencyUomId="INR" productStoreGroupId="ALL_STORES" fromDate="2020-01-01 00:00:00" price="100" createdByUserLogin="system" /> 
+			<ProductPrice productId="1001" productPricePurposeId="PURCHASE" productPriceTypeId="WHOLESALE_PRICE" currencyUomId="INR" productStoreGroupId="ALL_STORES" fromDate="2020-01-01 00:00:00" price="100" createdByUserLogin="system"/> 
+			<ProductAttribute productId= "1001" attrName="ShelfLife" attrValue="180" /> 
+			<ProductAttribute productId="1001" attrName="ShelfLifeUom" attrValue="TF_day" /> 
+			<ProductFacility productId="1001" facilityId="RETAIL_MUMBAI" minimumStock="10" reorderQuantity="100" daysToShip="1" /> 
+			<ProductFacility productId="1001" facilityId="RETAIL_MUMBAI" minimumStock="10" /> 
+			<ProductRole productId="1001" partyId="Company" roleTypeId="SUPPLIER" fromDate="2020-01-01 00:00:00" /> 
+			<SupplierProduct productId="1001" supplierproductId="1001" supplierProductName="Levis Shirt" partyId="Company" minimumOrderQuantity="0" currencyUomId="INR" availableFromDate="2020-01-01 00:00:00" lastPrice="100" quantityUomId="OTH_ea" standardLeadTimeDays="0"/> 
+		<!-- End product 1001 --> 
+
+		<!-- Start product 1002 --> 
+			<Product productId="1002" productTypeId="FINISHED_GOOD" manufacturerPartyId="Company" productName="Levis Jeans" internalName="Levis Jeans" description="Levis Jeans" longDescription="Levis Jeans" autoCreateKeywords="Y" createdByUserLogin="system" quantityUomId="OTH_ea" requirementMethodEnumId="PRODRQM_NONE"/> 
+			<ProductCategoryMember productCategoryId="JEANS" productId="1002" fromDate="2020-01-01 00:00:00"/> 
+			<ProductCategoryMember productCategoryId="62_SGST_5" productId="1002" fromDate="2020-01-01 00:00:00"/> 
+			<ProductCategoryMember productCategoryId="62_CGST_5" productId="1002" fromDate="2020-01-01 00:00:00"/> 
+			<ProductCategoryMember productCategoryId="62_IGST_5" productId="1002" fromDate="2020-01-01 00:00:00"/> 
+			<ProductCategoryMember productCategoryId="62_UTGST_5" productId="1002" fromDate="2020-01-01 00:00:00"/> 
+			<ProductPrice productId="1002" productPricePurposeId="PURCHASE" productPriceTypeId="LIST_PRICE" currencyUomId="INR" productStoreGroupId="ALL_STORES" fromDate="2020-01-01 00:00:00" price="150" createdByUserLogin="system"/> 
+			<ProductPrice productId="1002" productPricePurposeId="PURCHASE" productPriceTypeId="DEFAULT_PRICE" currencyUomId="INR" productStoreGroupId="ALL_STORES" fromDate="2020-01-01 00:00:00" price="150" createdByUserLogin="system"/> 
+			<ProductPrice productId="1002" productPricePurposeId="PURCHASE" productPriceTypeId="MAXIMUM_PRICE" currencyUomId="INR" productStoreGroupId="ALL_STORES" fromDate="2020-01-01 00:00:00" price="150" createdByUserLogin="system" /> 
+			<ProductPrice productId="1002" productPricePurposeId="PURCHASE" productPriceTypeId="WHOLESALE_PRICE" currencyUomId="INR" productStoreGroupId="ALL_STORES" fromDate="2020-01-01 00:00:00" price="150" createdByUserLogin="system"/> 
+			<ProductAttribute productId= "1002" attrName="ShelfLife" attrValue="180" /> 
+			<ProductAttribute productId="1002" attrName="ShelfLifeUom" attrValue="TF_day" /> 
+			<ProductFacility productId="1002" facilityId="RETAIL_MUMBAI" minimumStock="10" reorderQuantity="100" daysToShip="1" /> 
+			<ProductFacility productId="1002" facilityId="RETAIL_MUMBAI" minimumStock="10" /> 
+			<ProductRole productId="1002" partyId="Company" roleTypeId="SUPPLIER" fromDate="2020-01-01 00:00:00" /> 
+			<SupplierProduct productId="1002" supplierproductId="1002" supplierProductName="Levis Jeans" partyId="Company" minimumOrderQuantity="0" currencyUomId="INR" availableFromDate="2020-01-01 00:00:00" lastPrice="150" quantityUomId="OTH_ea" standardLeadTimeDays="0"/> 
+		<!-- End product 1002 --> 
+
+		<!-- Start product 1003 --> 
+			<Product productId="1003" productTypeId="FINISHED_GOOD" manufacturerPartyId="Company" productName="Denim Shirt" internalName="Denim Shirt" description="Denim Shirt" longDescription="Denim Shirt" autoCreateKeywords="Y" createdByUserLogin="system" quantityUomId="OTH_ea" requirementMethodEnumId="PRODRQM_NONE"/> 
+			<ProductCategoryMember productCategoryId="SHIRTS" productId="1003" fromDate="2020-01-01 00:00:00"/> 
+			<ProductCategoryMember productCategoryId="61_SGST_6" productId="1003" fromDate="2020-01-01 00:00:00"/> 
+			<ProductCategoryMember productCategoryId="61_CGST_6" productId="1003" fromDate="2020-01-01 00:00:00"/> 
+			<ProductCategoryMember productCategoryId="61_IGST_6" productId="1003" fromDate="2020-01-01 00:00:00"/> 
+			<ProductCategoryMember productCategoryId="61_UTGST_6" productId="1003" fromDate="2020-01-01 00:00:00"/> 
+			<ProductPrice productId="1003" productPricePurposeId="PURCHASE" productPriceTypeId="LIST_PRICE" currencyUomId="INR" productStoreGroupId="ALL_STORES" fromDate="2020-01-01 00:00:00" price="150" createdByUserLogin="system"/> 
+			<ProductPrice productId="1003" productPricePurposeId="PURCHASE" productPriceTypeId="DEFAULT_PRICE" currencyUomId="INR" productStoreGroupId="ALL_STORES" fromDate="2020-01-01 00:00:00" price="150" createdByUserLogin="system"/> 
+			<ProductPrice productId="1003" productPricePurposeId="PURCHASE" productPriceTypeId="MAXIMUM_PRICE" currencyUomId="INR" productStoreGroupId="ALL_STORES" fromDate="2020-01-01 00:00:00" price="150" createdByUserLogin="system" /> 
+			<ProductPrice productId="1003" productPricePurposeId="PURCHASE" productPriceTypeId="WHOLESALE_PRICE" currencyUomId="INR" productStoreGroupId="ALL_STORES" fromDate="2020-01-01 00:00:00" price="150" createdByUserLogin="system"/> 
+			<ProductAttribute productId= "1003" attrName="ShelfLife" attrValue="180" /> 
+			<ProductAttribute productId="1003" attrName="ShelfLifeUom" attrValue="TF_day" /> 
+			<ProductFacility productId="1003" facilityId="RETAIL_MUMBAI" minimumStock="10" reorderQuantity="100" daysToShip="1" /> 
+			<ProductFacility productId="1003" facilityId="RETAIL_MUMBAI" minimumStock="10" /> 
+			<ProductRole productId="1003" partyId="Company" roleTypeId="SUPPLIER" fromDate="2020-01-01 00:00:00" /> 
+			<SupplierProduct productId="1003" supplierproductId="1003" supplierProductName="Denim Shirt" partyId="Company" minimumOrderQuantity="0" currencyUomId="INR" availableFromDate="2020-01-01 00:00:00" lastPrice="150" quantityUomId="OTH_ea" standardLeadTimeDays="0"/> 
+		<!-- End product 1003 --> 
+
+		<!-- Start product 1004 --> 
+			<Product productId="1004" productTypeId="FINISHED_GOOD" manufacturerPartyId="Company" productName="Denim Jeans" internalName="Denim Jeans" description="Denim Jeans" longDescription="Denim Jeans" autoCreateKeywords="Y" createdByUserLogin="system" quantityUomId="OTH_ea" requirementMethodEnumId="PRODRQM_NONE"/> 
+			<ProductCategoryMember productCategoryId="JEANS" productId="1004" fromDate="2020-01-01 00:00:00"/> 
+			<ProductCategoryMember productCategoryId="63_SGST_5" productId="1004" fromDate="2020-01-01 00:00:00"/> 
+			<ProductCategoryMember productCategoryId="63_CGST_5" productId="1004" fromDate="2020-01-01 00:00:00"/> 
+			<ProductCategoryMember productCategoryId="63_IGST_5" productId="1004" fromDate="2020-01-01 00:00:00"/> 
+			<ProductCategoryMember productCategoryId="63_UTGST_5" productId="1004" fromDate="2020-01-01 00:00:00"/> 
+			<ProductPrice productId="1004" productPricePurposeId="PURCHASE" productPriceTypeId="LIST_PRICE" currencyUomId="INR" productStoreGroupId="ALL_STORES" fromDate="2020-01-01 00:00:00" price="200" createdByUserLogin="system"/> 
+			<ProductPrice productId="1004" productPricePurposeId="PURCHASE" productPriceTypeId="DEFAULT_PRICE" currencyUomId="INR" productStoreGroupId="ALL_STORES" fromDate="2020-01-01 00:00:00" price="200" createdByUserLogin="system"/> 
+			<ProductPrice productId="1004" productPricePurposeId="PURCHASE" productPriceTypeId="MAXIMUM_PRICE" currencyUomId="INR" productStoreGroupId="ALL_STORES" fromDate="2020-01-01 00:00:00" price="200" createdByUserLogin="system" /> 
+			<ProductPrice productId="1004" productPricePurposeId="PURCHASE" productPriceTypeId="WHOLESALE_PRICE" currencyUomId="INR" productStoreGroupId="ALL_STORES" fromDate="2020-01-01 00:00:00" price="200" createdByUserLogin="system"/> 
+			<ProductAttribute productId= "1004" attrName="ShelfLife" attrValue="180" /> 
+			<ProductAttribute productId="1004" attrName="ShelfLifeUom" attrValue="TF_day" /> 
+			<ProductFacility productId="1004" facilityId="RETAIL_MUMBAI" minimumStock="10" reorderQuantity="100" daysToShip="1" /> 
+			<ProductFacility productId="1004" facilityId="RETAIL_MUMBAI" minimumStock="10" /> 
+			<ProductRole productId="1004" partyId="Company" roleTypeId="SUPPLIER" fromDate="2020-01-01 00:00:00" /> 
+			<SupplierProduct productId="1004" supplierproductId="1004" supplierProductName="Denim Jeans" partyId="Company" minimumOrderQuantity="0" currencyUomId="INR" availableFromDate="2020-01-01 00:00:00" lastPrice="200" quantityUomId="OTH_ea" standardLeadTimeDays="0"/> 
+		<!-- End product 1004 --> 
+
+		<!-- Start product 1005 --> 
+			<Product productId="1005" productTypeId="FINISHED_GOOD" manufacturerPartyId="Company" productName="Pantaloon Shirt" internalName="Pantaloon Shirt" description="Pantaloon Shirt" longDescription="Pantaloon Shirt" autoCreateKeywords="Y" createdByUserLogin="system" quantityUomId="OTH_ea" requirementMethodEnumId="PRODRQM_NONE"/> 
+			<ProductCategoryMember productCategoryId="SHIRTS" productId="1005" fromDate="2020-01-01 00:00:00"/> 
+			<ProductCategoryMember productCategoryId="61_SGST_5" productId="1005" fromDate="2020-01-01 00:00:00"/> 
+			<ProductCategoryMember productCategoryId="61_CGST_5" productId="1005" fromDate="2020-01-01 00:00:00"/> 
+			<ProductCategoryMember productCategoryId="61_IGST_5" productId="1005" fromDate="2020-01-01 00:00:00"/> 
+			<ProductCategoryMember productCategoryId="61_UTGST_5" productId="1005" fromDate="2020-01-01 00:00:00"/> 
+			<ProductPrice productId="1005" productPricePurposeId="PURCHASE" productPriceTypeId="LIST_PRICE" currencyUomId="INR" productStoreGroupId="ALL_STORES" fromDate="2020-01-01 00:00:00" price="250" createdByUserLogin="system"/> 
+			<ProductPrice productId="1005" productPricePurposeId="PURCHASE" productPriceTypeId="DEFAULT_PRICE" currencyUomId="INR" productStoreGroupId="ALL_STORES" fromDate="2020-01-01 00:00:00" price="250" createdByUserLogin="system"/> 
+			<ProductPrice productId="1005" productPricePurposeId="PURCHASE" productPriceTypeId="MAXIMUM_PRICE" currencyUomId="INR" productStoreGroupId="ALL_STORES" fromDate="2020-01-01 00:00:00" price="250" createdByUserLogin="system" /> 
+			<ProductPrice productId="1005" productPricePurposeId="PURCHASE" productPriceTypeId="WHOLESALE_PRICE" currencyUomId="INR" productStoreGroupId="ALL_STORES" fromDate="2020-01-01 00:00:00" price="250" createdByUserLogin="system"/> 
+			<ProductAttribute productId= "1005" attrName="ShelfLife" attrValue="180" /> 
+			<ProductAttribute productId="1005" attrName="ShelfLifeUom" attrValue="TF_day" /> 
+			<ProductFacility productId="1005" facilityId="RETAIL_MUMBAI" minimumStock="10" reorderQuantity="100" daysToShip="1" /> 
+			<ProductFacility productId="1005" facilityId="RETAIL_MUMBAI" minimumStock="10" /> 
+			<ProductRole productId="1005" partyId="Company" roleTypeId="SUPPLIER" fromDate="2020-01-01 00:00:00" /> 
+			<SupplierProduct productId="1005" supplierproductId="1005" supplierProductName="Pantaloon Shirt" partyId="Company" minimumOrderQuantity="0" currencyUomId="INR" availableFromDate="2020-01-01 00:00:00" lastPrice="250" quantityUomId="OTH_ea" standardLeadTimeDays="0"/> 
+		<!-- End product 1005 --> 
+
+		<!-- Start product 1006 --> 
+			<Product productId="1006" productTypeId="FINISHED_GOOD" manufacturerPartyId="Company" productName="Pantaloon Trouser" internalName="Pantaloon Trouser" description="Pantaloon Trouser" longDescription="Pantaloon Trouser" autoCreateKeywords="Y" createdByUserLogin="system" quantityUomId="OTH_ea" requirementMethodEnumId="PRODRQM_NONE"/> 
+			<ProductCategoryMember productCategoryId="TROWSERS" productId="1006" fromDate="2020-01-01 00:00:00"/> 
+			<ProductCategoryMember productCategoryId="61_SGST_6" productId="1006" fromDate="2020-01-01 00:00:00"/> 
+			<ProductCategoryMember productCategoryId="61_CGST_6" productId="1006" fromDate="2020-01-01 00:00:00"/> 
+			<ProductCategoryMember productCategoryId="61_IGST_6" productId="1006" fromDate="2020-01-01 00:00:00"/> 
+			<ProductCategoryMember productCategoryId="61_UTGST_6" productId="1006" fromDate="2020-01-01 00:00:00"/> 
+			<ProductPrice productId="1006" productPricePurposeId="PURCHASE" productPriceTypeId="LIST_PRICE" currencyUomId="INR" productStoreGroupId="ALL_STORES" fromDate="2020-01-01 00:00:00" price="300" createdByUserLogin="system"/> 
+			<ProductPrice productId="1006" productPricePurposeId="PURCHASE" productPriceTypeId="DEFAULT_PRICE" currencyUomId="INR" productStoreGroupId="ALL_STORES" fromDate="2020-01-01 00:00:00" price="300" createdByUserLogin="system"/> 
+			<ProductPrice productId="1006" productPricePurposeId="PURCHASE" productPriceTypeId="MAXIMUM_PRICE" currencyUomId="INR" productStoreGroupId="ALL_STORES" fromDate="2020-01-01 00:00:00" price="300" createdByUserLogin="system" /> 
+			<ProductPrice productId="1006" productPricePurposeId="PURCHASE" productPriceTypeId="WHOLESALE_PRICE" currencyUomId="INR" productStoreGroupId="ALL_STORES" fromDate="2020-01-01 00:00:00" price="300" createdByUserLogin="system"/> 
+			<ProductAttribute productId= "1006" attrName="ShelfLife" attrValue="180" /> 
+			<ProductAttribute productId="1006" attrName="ShelfLifeUom" attrValue="TF_day" /> 
+			<ProductFacility productId="1006" facilityId="RETAIL_MUMBAI" minimumStock="10" reorderQuantity="100" daysToShip="1" /> 
+			<ProductFacility productId="1006" facilityId="RETAIL_MUMBAI" minimumStock="10" /> 
+			<ProductRole productId="1006" partyId="Company" roleTypeId="SUPPLIER" fromDate="2020-01-01 00:00:00" /> 
+			<SupplierProduct productId="1006" supplierproductId="1006" supplierProductName="Pantaloon Trouser" partyId="Company" minimumOrderQuantity="0" currencyUomId="INR" availableFromDate="2020-01-01 00:00:00" lastPrice="300" quantityUomId="OTH_ea" standardLeadTimeDays="0"/> 
+		<!-- End product 1006 --> 
+
+		<!-- Start product 1007 --> 
+			<Product productId="1007" productTypeId="FINISHED_GOOD" manufacturerPartyId="Company" productName="Nike Cap" internalName="Nike Cap" description="Nike Cap" longDescription="Nike Cap" autoCreateKeywords="Y" createdByUserLogin="system" quantityUomId="OTH_ea" requirementMethodEnumId="PRODRQM_NONE"/> 
+			<ProductCategoryMember productCategoryId="CAPS" productId="1007" fromDate="2020-01-01 00:00:00"/> 
+			<ProductCategoryMember productCategoryId="63_SGST_5" productId="1007" fromDate="2020-01-01 00:00:00"/> 
+			<ProductCategoryMember productCategoryId="63_CGST_5" productId="1007" fromDate="2020-01-01 00:00:00"/> 
+			<ProductCategoryMember productCategoryId="63_IGST_5" productId="1007" fromDate="2020-01-01 00:00:00"/> 
+			<ProductCategoryMember productCategoryId="63_UTGST_5" productId="1007" fromDate="2020-01-01 00:00:00"/> 
+			<ProductPrice productId="1007" productPricePurposeId="PURCHASE" productPriceTypeId="LIST_PRICE" currencyUomId="INR" productStoreGroupId="ALL_STORES" fromDate="2020-01-01 00:00:00" price="200" createdByUserLogin="system"/> 
+			<ProductPrice productId="1007" productPricePurposeId="PURCHASE" productPriceTypeId="DEFAULT_PRICE" currencyUomId="INR" productStoreGroupId="ALL_STORES" fromDate="2020-01-01 00:00:00" price="200" createdByUserLogin="system"/> 
+			<ProductPrice productId="1007" productPricePurposeId="PURCHASE" productPriceTypeId="MAXIMUM_PRICE" currencyUomId="INR" productStoreGroupId="ALL_STORES" fromDate="2020-01-01 00:00:00" price="200" createdByUserLogin="system" /> 
+			<ProductPrice productId="1007" productPricePurposeId="PURCHASE" productPriceTypeId="WHOLESALE_PRICE" currencyUomId="INR" productStoreGroupId="ALL_STORES" fromDate="2020-01-01 00:00:00" price="200" createdByUserLogin="system"/> 
+			<ProductAttribute productId= "1007" attrName="ShelfLife" attrValue="180" /> 
+			<ProductAttribute productId="1007" attrName="ShelfLifeUom" attrValue="TF_day" /> 
+			<ProductFacility productId="1007" facilityId="RETAIL_MUMBAI" minimumStock="10" reorderQuantity="100" daysToShip="1" /> 
+			<ProductFacility productId="1007" facilityId="RETAIL_MUMBAI" minimumStock="10" /> 
+			<ProductRole productId="1007" partyId="Company" roleTypeId="SUPPLIER" fromDate="2020-01-01 00:00:00" /> 
+			<SupplierProduct productId="1007" supplierproductId="1007" supplierProductName="Nike Cap" partyId="Company" minimumOrderQuantity="0" currencyUomId="INR" availableFromDate="2020-01-01 00:00:00" lastPrice="200" quantityUomId="OTH_ea" standardLeadTimeDays="0"/> 
+		<!-- End product 1007 --> 
+
+		<!-- Start product 1008 --> 
+			<Product productId="1008" productTypeId="FINISHED_GOOD" manufacturerPartyId="Company" productName="Puma Handkerchief" internalName="Puma Handkerchief" description="Puma Handkerchief" longDescription="Puma Handkerchief" autoCreateKeywords="Y" createdByUserLogin="system" quantityUomId="OTH_ea" requirementMethodEnumId="PRODRQM_NONE"/> 
+			<ProductCategoryMember productCategoryId="HANDKERCHIEF" productId="1008" fromDate="2020-01-01 00:00:00"/> 
+			<ProductCategoryMember productCategoryId="61_SGST_5" productId="1008" fromDate="2020-01-01 00:00:00"/> 
+			<ProductCategoryMember productCategoryId="61_CGST_5" productId="1008" fromDate="2020-01-01 00:00:00"/> 
+			<ProductCategoryMember productCategoryId="61_IGST_5" productId="1008" fromDate="2020-01-01 00:00:00"/> 
+			<ProductCategoryMember productCategoryId="61_UTGST_5" productId="1008" fromDate="2020-01-01 00:00:00"/> 
+			<ProductPrice productId="1008" productPricePurposeId="PURCHASE" productPriceTypeId="LIST_PRICE" currencyUomId="INR" productStoreGroupId="ALL_STORES" fromDate="2020-01-01 00:00:00" price="150" createdByUserLogin="system"/> 
+			<ProductPrice productId="1008" productPricePurposeId="PURCHASE" productPriceTypeId="DEFAULT_PRICE" currencyUomId="INR" productStoreGroupId="ALL_STORES" fromDate="2020-01-01 00:00:00" price="150" createdByUserLogin="system"/> 
+			<ProductPrice productId="1008" productPricePurposeId="PURCHASE" productPriceTypeId="MAXIMUM_PRICE" currencyUomId="INR" productStoreGroupId="ALL_STORES" fromDate="2020-01-01 00:00:00" price="150" createdByUserLogin="system" /> 
+			<ProductPrice productId="1008" productPricePurposeId="PURCHASE" productPriceTypeId="WHOLESALE_PRICE" currencyUomId="INR" productStoreGroupId="ALL_STORES" fromDate="2020-01-01 00:00:00" price="150" createdByUserLogin="system"/> 
+			<ProductAttribute productId= "1008" attrName="ShelfLife" attrValue="180" /> 
+			<ProductAttribute productId="1008" attrName="ShelfLifeUom" attrValue="TF_day" /> 
+			<ProductFacility productId="1008" facilityId="RETAIL_MUMBAI" minimumStock="10" reorderQuantity="100" daysToShip="1" /> 
+			<ProductFacility productId="1008" facilityId="RETAIL_MUMBAI" minimumStock="10" /> 
+			<ProductRole productId="1008" partyId="Company" roleTypeId="SUPPLIER" fromDate="2020-01-01 00:00:00" /> 
+			<SupplierProduct productId="1008" supplierproductId="1008" supplierProductName="Puma Handkerchief" partyId="Company" minimumOrderQuantity="0" currencyUomId="INR" availableFromDate="2020-01-01 00:00:00" lastPrice="150" quantityUomId="OTH_ea" standardLeadTimeDays="0"/> 
+		<!-- End product 1008 --> 
+
+	</entity-engine-xml>

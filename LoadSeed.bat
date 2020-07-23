@@ -1,0 +1,1 @@
+gradlew "ofbiz --load-data readers=seed"

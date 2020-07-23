@@ -1,6 +1,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <div class="container-fluid">
-	<form name="RegisterPerson" class="basic-form" id="RegisterPerson">
+	<form name="Retail" class="basic-form" id="Retail">
 		<input type="hidden" name="externalLoginKey" id="externalLoginKey" value="${externalLoginKey}"/>
 		<style>
 			#customers td {
@@ -91,12 +91,12 @@
 								<table>
 									<tbody>
 										<tr class="header-row-3">
-											<td width="19.5%"> 
+											<td width="25%"> 
 												<div id="productCategory">
 													
 												</div>
 											</td>
-											<td width="80.5%"> 
+											<td width="75%"> 
 												<div id="products">
 												
 												</div>
@@ -110,15 +110,6 @@
 				</tbody>
 			</table>
 		</div>
-	
-		<!-- <div id="_G0_" class="fieldgroup">
-			<div class="fieldgroup-title-bar">
-				<table><tbody><tr><td class="collapse"> </td><td> </td></tr></tbody></table> 
-			</div>
-			<div class="fieldgroup-body" id="_G0__body">
-			</div>
-		</div> -->
-	<!-- End  Form Widget - Form Element  component://myportal/widget/MyPortalForms.xml#RegisterPerson --><!-- End Section Widget  -->
 	</form>
 </div>
 
@@ -132,6 +123,7 @@
 	}
 	var productCategoriesWithProducts = "";
 	$(document).ready(function() { 
+		$('body').unbind();
 		$(window).resize(function() { 
 			setLayout();
 		}); 
@@ -159,7 +151,6 @@
 	}); 
 	
 	function createProductsAsPerCategory(productCategory){
-		console.log(productCategory);
 		$('#products').html('');
 		var y = 0;
 		$.each(productCategoriesWithProducts[productCategory], function(key, value){
@@ -170,11 +161,14 @@
 	$(document).load(function(){
 	  setLayout();
 	});
-	setLayout();
+	
 	function setLayout(){
 		var documentHeight = $( document ).height();
 		documentHeight = documentHeight - 165;
 		$('#RegisterPerson').height(documentHeight);
+		
+		$('.prdCat').css('width',($('#productCategory').width()/3));
+		
 	}
 	
 	function appendItems(data){
@@ -189,7 +183,7 @@
 	}
 	
 	function createButton(data){
-		return '<button class="button '+data.btnCss+'" id="'+data.id+'" onclick="createProductsAsPerCategory(\''+data.id+'\')">'+data.label+'</button>';
+		return '<input type="button" class="button '+data.btnCss+'" id="'+data.id+'" onclick="javascript:createProductsAsPerCategory(\''+data.id+'\')" value="'+data.label+'"></input>';
 	}
 	
 	function ajaxEvent(serviceName, data, mode, ajaxType, url){
@@ -197,6 +191,7 @@
 		if(!url){
 			url = baseUrlEnum.baseUrlRetail;
 		}
+		console.log("serviceName "+url + serviceName);
 		$.ajax({
 				url : url + serviceName,
 				type : ajaxType,
